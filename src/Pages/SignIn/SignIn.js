@@ -40,8 +40,6 @@ export default function SignIn() {
     }
   }
 
-  console.log(canRedirect);
-
   return (
 
     canRedirect ? <Redirect to="/dashboard" /> :
