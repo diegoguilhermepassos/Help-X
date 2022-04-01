@@ -192,6 +192,11 @@ function DashboardContent() {
                 inputProps={{ 'aria-label': 'search' }}
               />
           </Search>
+          <IconButton>
+            <Badge badgeContent={4} color="secondary">
+                <NotificationsIcon />
+              </Badge>
+          </IconButton>
             <IconButton color="inherit">
               <Badge badgeContent={4} color="secondary">
                 <NotificationsIcon />
