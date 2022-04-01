@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -16,6 +16,8 @@ import Copyright from '../../Components/Copyright/Copyright';
 
 export default function SignUp() {
   const classes = useStyles();
+  const [users, setUsers] = useState([])
+  const [user, setUser] = useState({email: '', password: ''})
 
   return (
     <Container component="main" maxWidth="xs">
