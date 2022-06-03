@@ -23,7 +23,6 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 import { mainListItems} from './listItems';
 
 import 'mapbox-gl/dist/mapbox-gl.css';
-import './index.css';
 
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
  
