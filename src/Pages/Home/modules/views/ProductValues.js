@@ -28,60 +28,38 @@ function ProductValues() {
         <Grid container spacing={5}>
           <Grid item xs={12} md={4}>
             <Box sx={item}>
-              <Box
-                component="img"
-                src="/static/themes/onepirate/productValues1.svg"
-                alt="suitcase"
-                sx={{ height: 55 }}
-              />
               <Typography variant="h6" sx={{ my: 5 }}>
-                The best luxury hotels
+                Uma melhor experiência
               </Typography>
               <Typography variant="h5">
                 {
-                  'From the latest trendy boutique hotel to the iconic palace with XXL pool'
+                  'Utilize o Help-X, e esteja seguro com uma experiência premium'
                 }
 
-                {
-                  ', go for a mini-vacation just a few subway stops away from your home.'
-                }
               </Typography>
             </Box>
           </Grid>
           <Grid item xs={12} md={4}>
             <Box sx={item}>
-              <Box
-                component="img"
-                src="/static/themes/onepirate/productValues2.svg"
-                alt="graph"
-                sx={{ height: 55 }}
-              />
               <Typography variant="h6" sx={{ my: 5 }}>
-                New experiences
+                Ajuda e companheirismo
               </Typography>
               <Typography variant="h5">
                 {
-                  'Privatize a pool, take a Japanese bath or wake up in 900m2 of garden… '
+                  'Não é necessário passar seus perrengues sozinho!'
                 }
 
-                {'your Sundays will not be alike.'}
+                {'Conte com outras pessoas para te ajudar!'}
               </Typography>
             </Box>
           </Grid>
           <Grid item xs={12} md={4}>
             <Box sx={item}>
-              <Box
-                component="img"
-                src="/static/themes/onepirate/productValues3.svg"
-                alt="clock"
-                sx={{ height: 55 }}
-              />
               <Typography variant="h6" sx={{ my: 5 }}>
-                Exclusive rates
+                Segurança total
               </Typography>
               <Typography variant="h5">
-                {'By registering, you will access specially negotiated rates '}
-                {'that you will not find anywhere else.'}
+                {'Utilizando um mapa, com acesso à localização em tempo real. '}
               </Typography>
             </Box>
           </Grid>
