@@ -90,19 +90,23 @@ const Drawer = styled(MuiDrawer, { shouldForwardProp: (prop) => prop !== 'open' 
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
-  borderRadius: theme.shape.borderRadius,
+
   backgroundColor: alpha(theme.palette.common.white, 0.15),
   '&:hover': {
     backgroundColor: alpha(theme.palette.common.white, 0.25),
   },
-  marginRight: theme.spacing(3),
-  marginLeft: 10,
+  marginRight: 40,
+  borderRadius: 50,
   width: '100%',
   [theme.breakpoints.up('sm')]: {
-    marginLeft: theme.spacing(3),
-    width: '100%',
+    marginLeft: theme.spacing(9),
+    marginRight: theme.spacing(12),
+    width: '70%',
   },
 }));
+
+
+
 
 const SearchIconWrapper = styled('div')(({ theme }) => ({
   padding: theme.spacing(0, 2),
@@ -175,9 +179,10 @@ function DashboardContent() {
               <MenuIcon />
             </IconButton>
             <Typography
+              
               component="h1"
               variant="h6"
-              color="inherit"
+              color="white"
               noWrap
               sx={{ flexGrow: 1 }}
             >
